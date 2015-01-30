@@ -10,5 +10,5 @@ cat template_tail >> $filename
 
 mv $filename $filepath
 
-echo https://maps.google.com/maps?q=$hostname$filename
+echo $hostname/?file=$filename
 
