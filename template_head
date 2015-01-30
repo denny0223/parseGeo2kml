@@ -4,8 +4,10 @@
     <name>KmlFile</name>
     <Style id="fb">
       <IconStyle>
+        <color>ff363647</color>
+        <scale>1.1</scale>
         <Icon>
-          <href>https://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+            <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
       <BalloonStyle>
@@ -14,8 +16,10 @@
     </Style>
     <Style id="ig">
       <IconStyle>
+        <color>ffdf9c48</color>
+        <scale>1.1</scale>
         <Icon>
-          <href>https://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+            <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
         </Icon>
       </IconStyle>
       <BalloonStyle>
