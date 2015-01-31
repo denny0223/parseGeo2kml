@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>KmlFile</name>
+    <Style id="fb">
+      <IconStyle>
+        <color>ffdf9c48</color>
+        <scale>1.1</scale>
+        <Icon>
+            <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text>$[img]</text>
+      </BalloonStyle>
+    </Style>
+    <Style id="ig">
+      <IconStyle>
+        <color>ff363647</color>
+        <scale>1.1</scale>
+        <Icon>
+            <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text>$[img]</text>
+      </BalloonStyle>
+    </Style>
+<Placemark>
+	<name><![CDATA[MfoMbldJrj]]></name>
+	<styleUrl><![CDATA[#fb]]></styleUrl>
+	<Point>
+		<coordinates><![CDATA[120.1931106,22.9958559]]></coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="img">
+            <value><![CDATA[<div>MfoMbldJrj<br>Denny Huang<br>海豹真難養<br><img src="http://denny0223.github.io/parseGeo2kml/img/1617972_1019263011424297_6255870267398428497_o.jpg" width="300"></div>]]></value>
+		</Data>
+	</ExtendedData>
+</Placemark>
+<Placemark>
+	<name><![CDATA[k5xLZXO3J9]]></name>
+	<styleUrl><![CDATA[#ig]]></styleUrl>
+	<Point>
+		<coordinates><![CDATA[121.6104202,25.0404506]]></coordinates>
+	</Point>
+	<ExtendedData>
+		<Data name="img">
+			<value><![CDATA[<div>37Qh5tjVIo<br>Denny Huang<br>test<br><img src="http://denny0223.github.io/parseGeo2kml/img/1909176_906999282644350_5442723786821661270_o.jpg" width="300"></div>]]></value>
+		</Data>
+	</ExtendedData>
+</Placemark>
+  </Document>
+</kml>

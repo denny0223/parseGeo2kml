@@ -32,7 +32,7 @@ function initialize() {
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
   var ctaLayer = new google.maps.KmlLayer({
-    url: 'https://example.com/kml/' + getQuery('file')
+    url: 'http://denny0223.github.io/parseGeo2kml/' + getQuery('file')
   });
   ctaLayer.setMap(map);
 }
